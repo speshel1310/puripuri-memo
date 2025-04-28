@@ -48,20 +48,6 @@
         </div>
     </div>
     <script src="script.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            ym(101462542, 'reachGoal', 'game_launch');
-
-            const restartBtn = document.getElementById('restart-btn');
-            restartBtn.addEventListener('click', () => {
-                ym(101462542, 'reachGoal', 'game_played');
-            });
-
-            const promoCode = document.getElementById('promo-code');
-            promoCode.addEventListener('click', () => {
-                ym(101462542, 'reachGoal', 'promo_code_used');
-            });
-        });
-    </script>
+    <!-- Удаляем отдельные метрики, т.к. теперь они все отправляются через класс MemoryGame -->
 </body>
 </html>
