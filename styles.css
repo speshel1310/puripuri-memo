@@ -42,7 +42,7 @@ body {
     transition: background-color 0.2s ease;
 }
 #restart-btn:hover {
-    background-color: #3A80D2;
+    background-color: rgb(236, 212, 114);
 }
 .game-board {
     display: grid;
@@ -88,7 +88,7 @@ body {
 #win-message {
     margin-top: 30px;
     padding: 20px;
-    background-color: #F7D33F;
+    background-color: rgb(247, 211, 63);
     color: rgb(0, 0, 0);
     border-radius: 12px;
     font-size: 18px;
