@@ -24,8 +24,11 @@ body {
     text-align: center;
 }
 .logo {
-    max-width: 200px;
+    max-width: 120px;
+    max-height: 80px;
     height: auto;
+    width: auto;
+    object-fit: contain;
 }
 .game-info {
     margin-top: 30px;
@@ -188,7 +191,8 @@ body {
         padding: 15px;
     }
     .logo {
-        max-width: 150px;
+        max-width: 100px;
+        max-height: 60px;
     }
     .game-board {
         gap: 8px;
